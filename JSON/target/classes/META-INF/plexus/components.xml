@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-set>
+  <components>
+
+    
+    <component>
+      <role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
+      <role-hint>apk</role-hint>
+      <implementation>org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping</implementation>
+      <configuration>
+        <phases>
+          <generate-sources>com.simpligility.maven.plugins:android-maven-plugin:generate-sources</generate-sources>
+          <process-resources>org.apache.maven.plugins:maven-resources-plugin:resources</process-resources>
+          <compile>org.apache.maven.plugins:maven-compiler-plugin:compile</compile>
+          <process-classes>
+            com.simpligility.maven.plugins:android-maven-plugin:emma,
+            com.simpligility.maven.plugins:android-maven-plugin:proguard
+          </process-classes>
+          <process-test-resources>org.apache.maven.plugins:maven-resources-plugin:testResources</process-test-resources>
+          <test-compile>org.apache.maven.plugins:maven-compiler-plugin:testCompile</test-compile>
+          <test>org.apache.maven.plugins:maven-surefire-plugin:test</test>
+          <prepare-package>com.simpligility.maven.plugins:android-maven-plugin:dex</prepare-package>
+          <package>
+            org.apache.maven.plugins:maven-jar-plugin:jar,
+            com.simpligility.maven.plugins:android-maven-plugin:apk
+          </package>
+          <install>org.apache.maven.plugins:maven-install-plugin:install</install>
+          <pre-integration-test>com.simpligility.maven.plugins:android-maven-plugin:internal-pre-integration-test</pre-integration-test>
+          <integration-test>com.simpligility.maven.plugins:android-maven-plugin:internal-integration-test</integration-test>
+          <deploy>org.apache.maven.plugins:maven-deploy-plugin:deploy</deploy>
+        </phases>
+      </configuration>
+    </component>
+
+    
+    <component>
+      <role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
+      <role-hint>apklib</role-hint>
+      <implementation>org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping</implementation>
+      <configuration>
+        <phases>
+          <generate-sources>com.simpligility.maven.plugins:android-maven-plugin:generate-sources</generate-sources>
+          <process-resources>org.apache.maven.plugins:maven-resources-plugin:resources</process-resources>
+          <compile>org.apache.maven.plugins:maven-compiler-plugin:compile</compile>
+          <process-classes>com.simpligility.maven.plugins:android-maven-plugin:emma,
+              com.simpligility.maven.plugins:android-maven-plugin:proguard</process-classes>
+          <process-test-resources>org.apache.maven.plugins:maven-resources-plugin:testResources</process-test-resources>
+          <test-compile>org.apache.maven.plugins:maven-compiler-plugin:testCompile</test-compile>
+          <test>org.apache.maven.plugins:maven-surefire-plugin:test</test>
+          <package>
+              org.apache.maven.plugins:maven-jar-plugin:jar,
+              com.simpligility.maven.plugins:android-maven-plugin:apklib
+          </package>
+          <install>org.apache.maven.plugins:maven-install-plugin:install</install>
+          <deploy>org.apache.maven.plugins:maven-deploy-plugin:deploy</deploy>
+        </phases>
+      </configuration>
+    </component>
+
+    
+    <component>
+      <role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
+      <role-hint>aar</role-hint>
+      <implementation>org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping</implementation>
+      <configuration>
+          <phases>
+              <generate-sources>com.simpligility.maven.plugins:android-maven-plugin:generate-sources</generate-sources>
+              <process-resources>org.apache.maven.plugins:maven-resources-plugin:resources</process-resources>
+              <compile>org.apache.maven.plugins:maven-compiler-plugin:compile</compile>
+              <process-classes>com.simpligility.maven.plugins:android-maven-plugin:emma,
+                  com.simpligility.maven.plugins:android-maven-plugin:proguard</process-classes>
+              <process-test-resources>org.apache.maven.plugins:maven-resources-plugin:testResources</process-test-resources>
+              <test-compile>org.apache.maven.plugins:maven-compiler-plugin:testCompile</test-compile>
+              <test>org.apache.maven.plugins:maven-surefire-plugin:test</test>
+              <package>
+                  org.apache.maven.plugins:maven-jar-plugin:jar,
+                  com.simpligility.maven.plugins:android-maven-plugin:aar
+              </package>
+              <install>org.apache.maven.plugins:maven-install-plugin:install</install>
+              <deploy>org.apache.maven.plugins:maven-deploy-plugin:deploy</deploy>
+          </phases>
+      </configuration>
+    </component>
+
+    <component>
+      <role>org.apache.maven.artifact.handler.ArtifactHandler</role>
+      <role-hint>apk</role-hint>
+      <implementation>org.apache.maven.artifact.handler.DefaultArtifactHandler</implementation>
+      <configuration>
+        <extension>apk</extension>
+        <type>apk</type>
+        <language>java</language>
+      </configuration>
+    </component>
+
+    <component>
+      <role>org.codehaus.plexus.component.annotations.Component</role>
+      <role-hint>jack</role-hint>
+      <implementation>com.simpligility.maven.plugins.android.compiler.JackCompiler</implementation>
+    </component>
+
+
+    <component>
+      <role>org.apache.maven.artifact.handler.ArtifactHandler</role>
+      <role-hint>apklib</role-hint>
+      <implementation>org.apache.maven.artifact.handler.DefaultArtifactHandler</implementation>
+      <configuration>
+        <extension>apklib</extension>
+        <type>apklib</type>
+        <language>java</language>
+      </configuration>
+    </component>
+
+    <component>
+      <role>org.apache.maven.artifact.handler.ArtifactHandler</role>
+      <role-hint>aar</role-hint>
+      <implementation>org.apache.maven.artifact.handler.DefaultArtifactHandler</implementation>
+      <configuration>
+        <extension>aar</extension>
+        <type>aar</type>
+        <language>java</language>
+      </configuration>
+    </component>
+
+    <component>
+      <role>org.apache.maven.artifact.handler.ArtifactHandler</role>
+      <role-hint>dex</role-hint>
+      <implementation>org.apache.maven.artifact.handler.DefaultArtifactHandler</implementation>
+      <configuration>
+        <extension>dex</extension>
+        <type>dex</type>
+        <language>java</language>
+      </configuration>
+    </component>
+
+    <component>
+      <role>org.apache.maven.artifact.handler.ArtifactHandler</role>
+      <role-hint>so</role-hint>
+      <implementation>org.apache.maven.artifact.handler.DefaultArtifactHandler</implementation>
+      <configuration>
+        <extension>so</extension>
+        <type>so</type>
+        <language>native</language>
+      </configuration>
+    </component>
+
+    
+    <component>
+      <role>org.apache.maven.artifact.handler.ArtifactHandler</role>
+      <role-hint>har</role-hint>
+      <implementation>org.apache.maven.artifact.handler.DefaultArtifactHandler</implementation>
+      <configuration>
+        <extension>har</extension>
+        <type>har</type>
+        <language>native</language>
+      </configuration>
+    </component>
+  <component>
+      <role>org.codehaus.plexus.compiler.Compiler</role>
+      <role-hint>jack</role-hint>
+      <implementation>com.simpligility.maven.plugins.android.compiler.JackCompiler</implementation>
+      <description />
+      <isolated-realm>false</isolated-realm>
+    </component><component>
+      <role>java.lang.Compiler</role>
+      <role-hint>jack</role-hint>
+      <implementation>com.simpligility.maven.plugins.android.compiler.JackCompiler</implementation>
+      <description />
+      <isolated-realm>false</isolated-realm>
+    </component><component>
+      <role>org.apache.maven.AbstractMavenLifecycleParticipant</role>
+      <role-hint>default</role-hint>
+      <implementation>com.simpligility.maven.plugins.android.phase_prebuild.ClasspathModifierLifecycleParticipant</implementation>
+      <description />
+      <isolated-realm>false</isolated-realm>
+      <requirements>
+        <requirement>
+          <role>org.apache.maven.artifact.resolver.ArtifactResolver</role>
+          <role-hint />
+          <field-name>artifactResolver</field-name>
+        </requirement>
+        <requirement>
+          <role>org.apache.maven.shared.dependency.graph.DependencyGraphBuilder</role>
+          <role-hint>default</role-hint>
+          <field-name>dependencyGraphBuilder</field-name>
+        </requirement>
+        <requirement>
+          <role>org.codehaus.plexus.logging.Logger</role>
+          <role-hint />
+          <field-name>log</field-name>
+        </requirement>
+      </requirements>
+    </component></components>
+</component-set>

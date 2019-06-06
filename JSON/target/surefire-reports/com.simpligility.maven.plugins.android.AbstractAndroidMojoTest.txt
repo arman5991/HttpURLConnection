@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.simpligility.maven.plugins.android.AbstractAndroidMojoTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.531 sec <<< FAILURE! - in com.simpligility.maven.plugins.android.AbstractAndroidMojoTest
+givenNoPathThenUseAndroidHomePath(com.simpligility.maven.plugins.android.AbstractAndroidMojoTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AbstractAndroidMojoTest.givenNoPathThenUseAndroidHomePath(AbstractAndroidMojoTest.java:52)
+
+usesAdbConnectionTimeout(com.simpligility.maven.plugins.android.AbstractAndroidMojoTest)  Time elapsed: 0.033 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AbstractAndroidMojoTest.usesAdbConnectionTimeout(AbstractAndroidMojoTest.java:115)
+
+givenApidemosPlatformtestsApkThenPackageIsFound(com.simpligility.maven.plugins.android.AbstractAndroidMojoTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AbstractAndroidMojoTest.givenApidemosPlatformtestsApkThenPackageIsFound(AbstractAndroidMojoTest.java:107)
+
+givenApidemosApkThenPackageIsFound(com.simpligility.maven.plugins.android.AbstractAndroidMojoTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AbstractAndroidMojoTest.givenApidemosApkThenPackageIsFound(AbstractAndroidMojoTest.java:100)
+

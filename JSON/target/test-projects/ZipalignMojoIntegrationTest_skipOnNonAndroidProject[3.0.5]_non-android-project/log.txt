@@ -1,0 +1,20 @@
+Maven Executor implementation: io.takari.maven.testing.executor.Embedded3xLauncher
+Maven home: C:\Users\Android\Desktop\JSON\target\maven-installation\apache-maven-3.0.5
+Build work directory: C:\Users\Android\Desktop\JSON\target\test-projects\ZipalignMojoIntegrationTest_skipOnNonAndroidProject[3.0.5]_non-android-project
+Execution parameters: [-Dm2e.workspace.state=C:\Users\Android\Desktop\JSON\target\workspacestate.properties, -Dmaven.repo.local=C:\Users\Android\.m2\repository, -Dit-plugin.version=4.5.0-jarfix, -Dit-project.version=4.5.0-jarfix, com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:zipalign]
+
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building non-android-project 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- android-maven-plugin:4.5.0-jarfix:zipalign (default-cli) @ non-android-project ---
+[INFO] Skipping zipalign on jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.896s
+[INFO] Finished at: Tue Dec 12 13:54:32 MSK 2017
+[INFO] Final Memory: 43M/218M
+[INFO] ------------------------------------------------------------------------

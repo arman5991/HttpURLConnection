@@ -1,0 +1,533 @@
+Maven Executor implementation: io.takari.maven.testing.executor.Embedded3xLauncher
+Maven home: C:\Users\Android\Desktop\JSON\target\maven-installation\apache-maven-3.2.5
+Build work directory: C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1
+Execution parameters: [-Dm2e.workspace.state=C:\Users\Android\Desktop\JSON\target\workspacestate.properties, -X, -Dmaven.repo.local=C:\Users\Android\.m2\repository, -Dit-plugin.version=4.5.0-jarfix, -Dit-project.version=4.5.0-jarfix, com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint]
+
+Apache Maven 3.2.5 (12a6b3acb947671f09b81f49094c53f426d8cea1; 2014-12-14T20:29:23+03:00)
+Maven home: C:\Users\Android\Desktop\JSON\target\maven-installation\apache-maven-3.2.5
+Java version: 1.8.0_74, vendor: Oracle Corporation
+Java home: C:\Program Files\Java\jdk1.8.0_74\jre
+Default locale: ru_RU, platform encoding: Cp1252
+OS name: "windows 8.1", version: "6.3", arch: "amd64", family: "dos"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from C:\Users\Android\Desktop\JSON\target\maven-installation\apache-maven-3.2.5\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\Android\.m2\settings.xml
+[DEBUG] Using local repository at C:\Users\Android\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\Android\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.jayway.maven.plugins.android.tests:lint-config-project1:jar:15.4.3.1011: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.jayway.maven.plugins.android.tests:lint-config-project1:jar:15.4.3.1011
+[DEBUG] Tasks:   [com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint]
+[DEBUG] Style:   Aggregating
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lint-config-project1 15.4.3.1011
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.jayway.maven.plugins.android.tests:lint-config-project1:15.4.3.1011
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <aaptExtraArgs>${android.aaptExtraArgs}</aaptExtraArgs>
+  <aaptVerbose>${android.aaptVerbose}</aaptVerbose>
+  <adbConnectionTimeout default-value="5000">${android.adb.connectionTimeout}</adbConnectionTimeout>
+  <androidManifestFile default-value="${project.basedir}/src/main/AndroidManifest.xml">${android.manifestFile}</androidManifestFile>
+  <assetsDirectory default-value="${project.basedir}/src/main/assets"/>
+  <attachJar default-value="true">${android.attachJar}</attachJar>
+  <attachSources default-value="false">${android.attachSources}</attachSources>
+  <combinedAssets default-value="${project.build.directory}/generated-sources/combined-assets"/>
+  <configurations>${android.configurations}</configurations>
+  <customPackage>${android.customPackage}</customPackage>
+  <destinationManifestFile default-value="${project.build.directory}/AndroidManifest.xml">${destination.manifestFile}</destinationManifestFile>
+  <device>${android.device}</device>
+  <deviceThreads>${android.deviceThreads}</deviceThreads>
+  <devices>${android.devices}</devices>
+  <disableConflictingDependenciesWarning default-value="false"/>
+  <envAndroidHome default-value="${env.ANDROID_HOME}"/>
+  <extractedDependenciesDirectory default-value="${project.build.directory}/generated-sources/extracted-dependencies"/>
+  <extractedDependenciesJavaResources default-value="${project.build.directory}/generated-sources/extracted-dependencies/src/main/resources"/>
+  <extractedDependenciesJavaSources default-value="${project.build.directory}/generated-sources/extracted-dependencies/src/main/java"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <genDirectory default-value="${project.build.directory}/generated-sources/r">${android.genDirectory}</genDirectory>
+  <generateApk default-value="true">${android.generateApk}</generateApk>
+  <includeLibsJarsFromAar default-value="true"/>
+  <includeLibsJarsFromApklib default-value="false"/>
+  <ips>${android.ips}</ips>
+  <legacy>${android.lint.legacy}</legacy>
+  <lint>
+    <skip>false</skip>
+  </lint>
+  <lintClasspath>${android.lint.classpath}</lintClasspath>
+  <lintConfig>${android.lint.config}</lintConfig>
+  <lintDisableSourceLines>${android.lint.disableSourceLines}</lintDisableSourceLines>
+  <lintEnableClasspath>${android.lint.enableSources}</lintEnableClasspath>
+  <lintEnableHtml>${android.lint.enableHtml}</lintEnableHtml>
+  <lintEnableLibraries>${android.lint.enableSources}</lintEnableLibraries>
+  <lintEnableSimpleHtml>${android.lint.enableSimpleHtml}</lintEnableSimpleHtml>
+  <lintEnableSource>${android.lint.enableSources}</lintEnableSource>
+  <lintEnableXml>${android.lint.enableXml}</lintEnableXml>
+  <lintFailOnError>${android.lint.failOnError}</lintFailOnError>
+  <lintFullPath>${android.lint.fullPath}</lintFullPath>
+  <lintHtmlOutputPath>${android.lint.htmlOutputPath}</lintHtmlOutputPath>
+  <lintIgnoreWarnings>${android.lint.ignoreWarning}</lintIgnoreWarnings>
+  <lintLibraries>${android.lint.libraries}</lintLibraries>
+  <lintShowAll>${android.lint.showAll}</lintShowAll>
+  <lintSimpleHtmlOutputPath>${android.lint.simpleHtmlOutputPath}</lintSimpleHtmlOutputPath>
+  <lintSkip>${android.lint.skip}</lintSkip>
+  <lintSources>${android.lint.sources}</lintSources>
+  <lintUrl>${android.lint.url}</lintUrl>
+  <lintWarnAll>${android.lint.warnAll}</lintWarnAll>
+  <lintWarningsAsErrors>${android.lint.warningsAsErrors}</lintWarningsAsErrors>
+  <lintXmlOutputPath>${android.lint.xmlOutputPath}</lintXmlOutputPath>
+  <nativeLibrariesDirectory default-value="${project.basedir}/src/main/libs">${android.nativeLibrariesDirectory}</nativeLibrariesDirectory>
+  <ndkOutputDirectory default-value="${project.build.directory}/ndk-libs"/>
+  <ndkPath>${android.ndk.path}</ndkPath>
+  <proguardFile>${android.proguardFile}</proguardFile>
+  <projectOutputDirectory default-value="${project.build.outputDirectory}"/>
+  <quiet>${android.lint.quiet}</quiet>
+  <release default-value="false">${android.release}</release>
+  <renameManifestPackage>${android.renameManifestPackage}</renameManifestPackage>
+  <resourceDirectory default-value="${project.basedir}/src/main/res"/>
+  <resourceOverlayDirectory default-value="${project.basedir}/res-overlay"/>
+  <resources default-value="${project.build.resources}"/>
+  <sdk>
+    <platform>19</platform>
+  </sdk>
+  <sdkPath>${android.sdk.path}</sdkPath>
+  <sdkPlatform>${android.sdk.platform}</sdkPlatform>
+  <sourceDirectory default-value="${project.build.sourceDirectory}"/>
+  <sourceEncoding default-value="${project.build.sourceEncoding}"/>
+  <targetDirectory default-value="${project.build.directory}"/>
+  <undeployBeforeDeploy default-value="false">${android.undeployBeforeDeploy}</undeployBeforeDeploy>
+  <unpackedLibsFolder default-value="${project.build.directory}/unpacked-libs">${unpackedLibsFolder}</unpackedLibsFolder>
+  <execution default-value="${mojoExecution}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --- android-maven-plugin:4.5.0-jarfix:lint (default-cli) @ lint-config-project1 ---
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2, ConflictMarker.markTime=0, ConflictMarker.nodeCount=541, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=121, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=7, ConflictResolver.conflictItemCount=240, DefaultDependencyCollector.collectTime=2309, DefaultDependencyCollector.transformTime=12}
+[DEBUG] com.simpligility.maven.plugins:android-maven-plugin:jar:4.5.0-jarfix:
+[DEBUG]    com.android.tools:annotations:jar:25.3.0:compile
+[DEBUG]    com.android.tools:common:jar:25.3.0:compile
+[DEBUG]       com.google.guava:guava:jar:18.0:compile
+[DEBUG]    com.android.tools:dvlib:jar:25.3.0:compile
+[DEBUG]    com.android.tools:sdk-common:jar:25.3.0:compile
+[DEBUG]       com.android.tools.build:builder-test-api:jar:2.3.0:runtime
+[DEBUG]       org.bouncycastle:bcpkix-jdk15on:jar:1.48:runtime
+[DEBUG]       org.bouncycastle:bcprov-jdk15on:jar:1.48:runtime
+[DEBUG]    com.android.tools:sdklib:jar:25.3.0:compile
+[DEBUG]       com.google.code.gson:gson:jar:2.2.4:runtime
+[DEBUG]       org.apache.commons:commons-compress:jar:1.8.1:runtime
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.1.1:compile
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.1:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.1.1:compile
+[DEBUG]          commons-codec:commons-codec:jar:1.4:compile
+[DEBUG]       org.apache.httpcomponents:httpmime:jar:4.1:runtime
+[DEBUG]    com.android.tools.build:builder:jar:2.3.0:compile
+[DEBUG]       com.android.tools.jack:jack-api:jar:0.13.0:runtime
+[DEBUG]       com.android.tools.jill:jill-api:jar:0.10.0:runtime
+[DEBUG]       com.android.tools.analytics-library:protos:jar:25.3.0:runtime
+[DEBUG]          com.google.protobuf:protobuf-java:jar:3.0.0:runtime
+[DEBUG]       com.android.tools.analytics-library:shared:jar:25.3.0:runtime
+[DEBUG]       com.android.tools.analytics-library:tracker:jar:25.3.0:runtime
+[DEBUG]       com.squareup:javawriter:jar:2.5.0:runtime
+[DEBUG]       org.ow2.asm:asm-tree:jar:5.0.4:runtime
+[DEBUG]    com.android.tools.build:builder-model:jar:2.3.0:compile
+[DEBUG]    com.android.tools:repository:jar:25.3.0:compile
+[DEBUG]       com.google.jimfs:jimfs:jar:1.1:runtime
+[DEBUG]    com.android.tools.build:manifest-merger:jar:25.3.0:compile
+[DEBUG]       net.sf.kxml:kxml2:jar:2.3.0:runtime
+[DEBUG]    com.android.tools.ddms:ddmlib:jar:25.3.0:compile
+[DEBUG]    com.android.tools.layoutlib:layoutlib-api:jar:25.3.0:compile
+[DEBUG]       com.intellij:annotations:jar:12.0:runtime
+[DEBUG]    com.android.tools.lint:lint:jar:25.3.0:compile
+[DEBUG]       org.eclipse.jdt.core.compiler:ecj:jar:4.6.1:runtime
+[DEBUG]    com.android.tools.lint:lint-api:jar:25.3.0:compile
+[DEBUG]       com.android.tools.external.com-intellij:uast:jar:162.2228.14:runtime
+[DEBUG]       com.android.tools.external.lombok:lombok-ast:jar:0.2.3:runtime
+[DEBUG]    com.android.tools.lint:lint-checks:jar:25.3.0:compile
+[DEBUG]       org.ow2.asm:asm-analysis:jar:5.0.4:runtime
+[DEBUG]    org.apache.maven:maven-compat:jar:3.0.4:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0.4:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0.4:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0.4:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0.4:compile
+[DEBUG]       org.apache.maven:maven-core:jar:3.0.4:compile
+[DEBUG]          org.apache.maven:maven-settings-builder:jar:3.0.4:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:3.0.4:compile
+[DEBUG]          org.apache.maven:maven-aether-provider:jar:3.0.4:compile
+[DEBUG]             org.sonatype.aether:aether-spi:jar:1.13.1:compile
+[DEBUG]          org.sonatype.aether:aether-impl:jar:1.13.1:compile
+[DEBUG]          org.sonatype.aether:aether-api:jar:1.13.1:compile
+[DEBUG]          org.sonatype.aether:aether-util:jar:1.13.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.4:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:2.3.0:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:2.3.0:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile
+[DEBUG]                org.sonatype.sisu:sisu-guava:jar:0.9.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:2.2:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]    emma:emma:jar:2.0.5312:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:3.0.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.6:compile
+[DEBUG]       org.iq80.snappy:snappy:jar:0.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
+[DEBUG]    commons-jxpath:commons-jxpath:jar:1.3:compile
+[DEBUG]    commons-io:commons-io:jar:2.4:compile
+[DEBUG]    org.ow2.asm:asm:jar:5.0.4:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.4:compile
+[DEBUG]    com.github.rtyley:android-screenshot-paparazzo:jar:1.9:compile
+[DEBUG]       com.madgag:animated-gif-lib:jar:1.0:compile
+[DEBUG]    com.github.rtyley:android-screenshot-celebrity:jar:1.9:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:2.2:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]    com.google.apis:google-api-services-androidpublisher:jar:v2-rev13-1.19.0:compile
+[DEBUG]       com.google.api-client:google-api-client:jar:1.19.0:compile
+[DEBUG]          com.google.oauth-client:google-oauth-client:jar:1.19.0:compile
+[DEBUG]             com.google.http-client:google-http-client:jar:1.19.0:compile
+[DEBUG]          com.google.http-client:google-http-client-jackson2:jar:1.19.0:compile
+[DEBUG]             com.fasterxml.jackson.core:jackson-core:jar:2.1.3:compile
+[DEBUG]          com.google.guava:guava-jdk5:jar:13.0:compile
+[DEBUG]    org.apache.maven.plugins:maven-shade-plugin:jar:2.3:compile
+[DEBUG]       org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.12:compile
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    jaxen:jaxen:jar:1.1.6:compile
+[DEBUG]    org.jdom:jdom2:jar:2.0.6:compile
+[DEBUG]    net.sf.proguard:proguard-base:jar:5.2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.5:compile
+[DEBUG]    org.apache.maven.plugins:maven-compiler-plugin:jar:3.5.1:compile
+[DEBUG]       org.apache.maven:maven-toolchain:jar:2.2.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-compiler-manager:jar:2.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-compiler-javac:jar:2.7:runtime
+[DEBUG] Created new class realm plugin>com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix
+[DEBUG] Importing foreign packages into class realm plugin>com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix
+[DEBUG]   Included: com.simpligility.maven.plugins:android-maven-plugin:jar:4.5.0-jarfix
+[DEBUG]   Included: com.android.tools:annotations:jar:25.3.0
+[DEBUG]   Included: com.android.tools:common:jar:25.3.0
+[DEBUG]   Included: com.google.guava:guava:jar:18.0
+[DEBUG]   Included: com.android.tools:dvlib:jar:25.3.0
+[DEBUG]   Included: com.android.tools:sdk-common:jar:25.3.0
+[DEBUG]   Included: com.android.tools.build:builder-test-api:jar:2.3.0
+[DEBUG]   Included: org.bouncycastle:bcpkix-jdk15on:jar:1.48
+[DEBUG]   Included: org.bouncycastle:bcprov-jdk15on:jar:1.48
+[DEBUG]   Included: com.android.tools:sdklib:jar:25.3.0
+[DEBUG]   Included: com.google.code.gson:gson:jar:2.2.4
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.8.1
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.1.1
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.1
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.1.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.4
+[DEBUG]   Included: org.apache.httpcomponents:httpmime:jar:4.1
+[DEBUG]   Included: com.android.tools.build:builder:jar:2.3.0
+[DEBUG]   Included: com.android.tools.jack:jack-api:jar:0.13.0
+[DEBUG]   Included: com.android.tools.jill:jill-api:jar:0.10.0
+[DEBUG]   Included: com.android.tools.analytics-library:protos:jar:25.3.0
+[DEBUG]   Included: com.google.protobuf:protobuf-java:jar:3.0.0
+[DEBUG]   Included: com.android.tools.analytics-library:shared:jar:25.3.0
+[DEBUG]   Included: com.android.tools.analytics-library:tracker:jar:25.3.0
+[DEBUG]   Included: com.squareup:javawriter:jar:2.5.0
+[DEBUG]   Included: org.ow2.asm:asm-tree:jar:5.0.4
+[DEBUG]   Included: com.android.tools.build:builder-model:jar:2.3.0
+[DEBUG]   Included: com.android.tools:repository:jar:25.3.0
+[DEBUG]   Included: com.google.jimfs:jimfs:jar:1.1
+[DEBUG]   Included: com.android.tools.build:manifest-merger:jar:25.3.0
+[DEBUG]   Included: net.sf.kxml:kxml2:jar:2.3.0
+[DEBUG]   Included: com.android.tools.ddms:ddmlib:jar:25.3.0
+[DEBUG]   Included: com.android.tools.layoutlib:layoutlib-api:jar:25.3.0
+[DEBUG]   Included: com.intellij:annotations:jar:12.0
+[DEBUG]   Included: com.android.tools.lint:lint:jar:25.3.0
+[DEBUG]   Included: org.eclipse.jdt.core.compiler:ecj:jar:4.6.1
+[DEBUG]   Included: com.android.tools.lint:lint-api:jar:25.3.0
+[DEBUG]   Included: com.android.tools.external.com-intellij:uast:jar:162.2228.14
+[DEBUG]   Included: com.android.tools.external.lombok:lombok-ast:jar:0.2.3
+[DEBUG]   Included: com.android.tools.lint:lint-checks:jar:25.3.0
+[DEBUG]   Included: org.ow2.asm:asm-analysis:jar:5.0.4
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.13.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:2.3.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-guava:jar:0.9.9
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: emma:emma:jar:2.0.5312
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:3.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.6
+[DEBUG]   Included: org.iq80.snappy:snappy:jar:0.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.1.0
+[DEBUG]   Included: commons-jxpath:commons-jxpath:jar:1.3
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: org.ow2.asm:asm:jar:5.0.4
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.4
+[DEBUG]   Included: com.github.rtyley:android-screenshot-paparazzo:jar:1.9
+[DEBUG]   Included: com.madgag:animated-gif-lib:jar:1.0
+[DEBUG]   Included: com.github.rtyley:android-screenshot-celebrity:jar:1.9
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.2
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: com.google.apis:google-api-services-androidpublisher:jar:v2-rev13-1.19.0
+[DEBUG]   Included: com.google.api-client:google-api-client:jar:1.19.0
+[DEBUG]   Included: com.google.oauth-client:google-oauth-client:jar:1.19.0
+[DEBUG]   Included: com.google.http-client:google-http-client:jar:1.19.0
+[DEBUG]   Included: com.google.http-client:google-http-client-jackson2:jar:1.19.0
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-core:jar:2.1.3
+[DEBUG]   Included: com.google.guava:guava-jdk5:jar:13.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-shade-plugin:jar:2.3
+[DEBUG]   Included: junit:junit:jar:4.12
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.3
+[DEBUG]   Included: jaxen:jaxen:jar:1.1.6
+[DEBUG]   Included: org.jdom:jdom2:jar:2.0.6
+[DEBUG]   Included: net.sf.proguard:proguard-base:jar:5.2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.7
+[DEBUG]   Excluded: org.apache.maven:maven-compat:jar:3.0.4
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:3.0.4
+[DEBUG]   Excluded: org.apache.maven:maven-model-builder:jar:3.0.4
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:3.0.4
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:3.0.4
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:3.0.4
+[DEBUG]   Excluded: org.apache.maven:maven-settings-builder:jar:3.0.4
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:3.0.4
+[DEBUG]   Excluded: org.apache.maven:maven-aether-provider:jar:3.0.4
+[DEBUG]   Excluded: org.sonatype.aether:aether-spi:jar:1.13.1
+[DEBUG]   Excluded: org.sonatype.aether:aether-impl:jar:1.13.1
+[DEBUG]   Excluded: org.sonatype.aether:aether-api:jar:1.13.1
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-classworlds:jar:2.4
+[DEBUG]   Excluded: org.sonatype.sisu:sisu-inject-plexus:jar:2.3.0
+[DEBUG]   Excluded: org.apache.maven.wagon:wagon-provider-api:jar:2.2
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:3.0
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:2.2.1
+[DEBUG] Configuring mojo com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint from plugin realm ClassRealm[plugin>com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix, parent: sun.misc.Launcher$AppClassLoader@6bc7c054]
+[DEBUG] Configuring mojo 'com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint' with basic configurator -->
+[DEBUG]   (f) aaptExtraArgs = []
+[DEBUG]   (f) adbConnectionTimeout = 5000
+[DEBUG]   (f) androidManifestFile = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\src\main\AndroidManifest.xml
+[DEBUG]   (f) assetsDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\src\main\assets
+[DEBUG]   (f) attachJar = true
+[DEBUG]   (f) attachSources = false
+[DEBUG]   (f) combinedAssets = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\generated-sources\combined-assets
+[DEBUG]   (f) destinationManifestFile = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\AndroidManifest.xml
+[DEBUG]   (f) devices = []
+[DEBUG]   (f) disableConflictingDependenciesWarning = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\false
+[DEBUG]   (f) extractedDependenciesDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\generated-sources\extracted-dependencies
+[DEBUG]   (f) extractedDependenciesJavaResources = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\generated-sources\extracted-dependencies\src\main\resources
+[DEBUG]   (f) extractedDependenciesJavaSources = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\generated-sources\extracted-dependencies\src\main\java
+[DEBUG]   (f) finalName = lint-config-project1-15.4.3.1011
+[DEBUG]   (f) genDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\generated-sources\r
+[DEBUG]   (f) generateApk = true
+[DEBUG]   (f) includeLibsJarsFromAar = true
+[DEBUG]   (f) includeLibsJarsFromApklib = false
+[DEBUG]   (f) ips = []
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) lint = com.simpligility.maven.plugins.android.configuration.Lint@c6653e
+[DEBUG]   (f) nativeLibrariesDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\src\main\libs
+[DEBUG]   (f) ndkOutputDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\ndk-libs
+[DEBUG]   (f) projectOutputDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\classes
+[DEBUG]   (f) release = false
+[DEBUG]   (f) resourceDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\src\main\res
+[DEBUG]   (f) resourceOverlayDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\res-overlay
+[DEBUG]   (f) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) platform = 19
+[DEBUG]   (f) sdk = com.simpligility.maven.plugins.android.configuration.Sdk@788fa91f
+[DEBUG]   (f) sourceDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\src\main\java
+[DEBUG]   (f) targetDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target
+[DEBUG]   (f) undeployBeforeDeploy = false
+[DEBUG]   (f) unpackedLibsFolder = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\unpacked-libs
+[DEBUG]   (f) execution = com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint {execution: default-cli}
+[DEBUG]   (f) project = MavenProject: com.jayway.maven.plugins.android.tests:lint-config-project1:15.4.3.1011 @ C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@6dd7af2f
+[DEBUG] -- end configuration --
+[DEBUG] get parsed xml output path:null
+[DEBUG] Parsed values for Android Lint invocation: 
+[DEBUG] failOnError:false
+[DEBUG] skip:false
+[DEBUG] legacy:true
+[DEBUG] quiet:true
+[DEBUG] ignoreWarnings:false
+[DEBUG] warnAll:false
+[DEBUG] warningsAsErrors:false
+[DEBUG] config2:null
+[DEBUG] fullPath:false
+[DEBUG] showAll:true
+[DEBUG] disableSourceLines:false
+[DEBUG] enablehtml: false
+[DEBUG] htmlOutputPath:C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\lint-results\lint-results-html
+[DEBUG] enableSimpleHtml: false
+[DEBUG] simpleHtmlOutputPath:C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\lint-results\lint-results-simple-html
+[DEBUG] enableXml: true
+[DEBUG] xmlOutputPath:C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\lint-results\lint-results.xml
+[DEBUG] sources:C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\src\main\java
+[DEBUG] classpath:C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testDefaultUnskippedLintConfig[3.2.5]_lint-config-project1\target\classes
+[DEBUG] libraries:null
+[INFO] Performing lint analysis.
+[INFO] Using Lint from the Android SDK.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.940 s
+[INFO] Finished at: 2017-12-12T13:54:23+03:00
+[INFO] Final Memory: 40M/220M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint (default-cli) on project lint-config-project1: No Android SDK path could be found. You may configure it in the plugin configuration section in the pom file using <sdk><path>...</path></sdk> or <properties><android.sdk.path>...</android.sdk.path></properties> or on command-line using -Dandroid.sdk.path=... or by setting environment variable ANDROID_HOME -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint (default-cli) on project lint-config-project1: No Android SDK path could be found. You may configure it in the plugin configuration section in the pom file using <sdk><path>...</path></sdk> or <properties><android.sdk.path>...</android.sdk.path></properties> or on command-line using -Dandroid.sdk.path=... or by setting environment variable ANDROID_HOME
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:216)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:355)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:216)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.takari.maven.testing.executor.Embedded3xLauncher.run(Embedded3xLauncher.java:360)
+	at io.takari.maven.testing.executor.MavenExecution.execute(MavenExecution.java:56)
+	at com.simpligility.maven.plugins.android.standalonemojos.LintMojoIntegrationTest.testDefaultUnskippedLintConfig(LintMojoIntegrationTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.apache.maven.plugin.MojoExecutionException: No Android SDK path could be found. You may configure it in the plugin configuration section in the pom file using <sdk><path>...</path></sdk> or <properties><android.sdk.path>...</android.sdk.path></properties> or on command-line using -Dandroid.sdk.path=... or by setting environment variable ANDROID_HOME
+	at com.simpligility.maven.plugins.android.AbstractAndroidMojo.getAndroidHomeOrThrow(AbstractAndroidMojo.java:1192)
+	at com.simpligility.maven.plugins.android.AbstractAndroidMojo.getAndroidSdk(AbstractAndroidMojo.java:1138)
+	at com.simpligility.maven.plugins.android.standalonemojos.LintMojo.executeWhenConfigured(LintMojo.java:440)
+	at com.simpligility.maven.plugins.android.standalonemojos.LintMojo.execute(LintMojo.java:425)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	... 52 more
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

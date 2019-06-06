@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.simpligility.maven.plugins.android.standalonemojos.LintMojoIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 71.367 sec <<< FAILURE! - in com.simpligility.maven.plugins.android.standalonemojos.LintMojoIntegrationTest
+testDefaultUnskippedLintConfig[3.0.5](com.simpligility.maven.plugins.android.standalonemojos.LintMojoIntegrationTest)  Time elapsed: 44.179 sec  <<< FAILURE!
+java.lang.AssertionError: [[ERROR] Failed to execute goal com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint (default-cli) on project lint-config-project1: No Android SDK path could be found. You may configure it in the plugin configuration section in the pom file using <sdk><path>...</path></sdk> or <properties><android.sdk.path>...</android.sdk.path></properties> or on command-line using -Dandroid.sdk.path=... or by setting environment variable ANDROID_HOME -> [Help 1], [ERROR] , [ERROR] , [ERROR] For more information about the errors and possible solutions, please read the following articles:, [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException]
+	at com.simpligility.maven.plugins.android.standalonemojos.LintMojoIntegrationTest.testDefaultUnskippedLintConfig(LintMojoIntegrationTest.java:70)
+
+testDefaultUnskippedLintConfig[3.2.5](com.simpligility.maven.plugins.android.standalonemojos.LintMojoIntegrationTest)  Time elapsed: 3.842 sec  <<< FAILURE!
+java.lang.AssertionError: [[ERROR] Failed to execute goal com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint (default-cli) on project lint-config-project1: No Android SDK path could be found. You may configure it in the plugin configuration section in the pom file using <sdk><path>...</path></sdk> or <properties><android.sdk.path>...</android.sdk.path></properties> or on command-line using -Dandroid.sdk.path=... or by setting environment variable ANDROID_HOME -> [Help 1], [ERROR] , [ERROR] , [ERROR] For more information about the errors and possible solutions, please read the following articles:, [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException]
+	at com.simpligility.maven.plugins.android.standalonemojos.LintMojoIntegrationTest.testDefaultUnskippedLintConfig(LintMojoIntegrationTest.java:70)
+

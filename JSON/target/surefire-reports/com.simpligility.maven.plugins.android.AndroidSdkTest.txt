@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: com.simpligility.maven.plugins.android.AndroidSdkTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 12, Errors: 0, Skipped: 1, Time elapsed: 0.001 sec <<< FAILURE! - in com.simpligility.maven.plugins.android.AndroidSdkTest
+validPlatformsAndApiLevelsWithDiffBuildTools2(com.simpligility.maven.plugins.android.AndroidSdkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AndroidSdkTest.setUp(AndroidSdkTest.java:43)
+
+invalidPlatformAndApiLevels(com.simpligility.maven.plugins.android.AndroidSdkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AndroidSdkTest.setUp(AndroidSdkTest.java:43)
+
+givenPlatformNullThenPlatformisSomethingValidLooking(com.simpligility.maven.plugins.android.AndroidSdkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AndroidSdkTest.setUp(AndroidSdkTest.java:43)
+
+givenInvalidPlatformStringThenException(com.simpligility.maven.plugins.android.AndroidSdkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AndroidSdkTest.setUp(AndroidSdkTest.java:43)
+
+validPlatformsAndApiLevels19(com.simpligility.maven.plugins.android.AndroidSdkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AndroidSdkTest.setUp(AndroidSdkTest.java:43)
+
+validPlatformsAndApiLevels22(com.simpligility.maven.plugins.android.AndroidSdkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AndroidSdkTest.setUp(AndroidSdkTest.java:43)
+
+validPlatformsAndApiLevels23(com.simpligility.maven.plugins.android.AndroidSdkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AndroidSdkTest.setUp(AndroidSdkTest.java:43)
+
+validPlatformsAndApiLevels25(com.simpligility.maven.plugins.android.AndroidSdkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AndroidSdkTest.setUp(AndroidSdkTest.java:43)
+
+validPlatformsAndApiLevelsWithDiffBuildToolsMinor(com.simpligility.maven.plugins.android.AndroidSdkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AndroidSdkTest.setUp(AndroidSdkTest.java:43)
+
+invalidBuildTools(com.simpligility.maven.plugins.android.AndroidSdkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AndroidSdkTest.setUp(AndroidSdkTest.java:43)
+
+givenToolAdbThenPathIsPlatformTools(com.simpligility.maven.plugins.android.AndroidSdkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AndroidSdkTest.setUp(AndroidSdkTest.java:43)
+
+givenToolAndroidThenPathIsCommon(com.simpligility.maven.plugins.android.AndroidSdkTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: For running the tests, you must have environment variable ANDROID_HOME set to a valid Android SDK 25 directory.
+	at com.simpligility.maven.plugins.android.AndroidSdkTest.setUp(AndroidSdkTest.java:43)
+

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.simpligility.maven.plugins.android.phase01generatesources.GetPackageCompareMapTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.209 sec - in com.simpligility.maven.plugins.android.phase01generatesources.GetPackageCompareMapTest

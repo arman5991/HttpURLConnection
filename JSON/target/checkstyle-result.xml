@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\android\ddmlib\testrunner\MonkeyTestRunner.java">
+<error line="190" column="48" severity="warning" message="&apos;monitorNativeCrashes&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\android\ddmlib\testrunner\UIAutomatorRemoteAndroidTestRunner.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\AbstractAndroidMojo.java">
+<error line="704" column="53" severity="warning" message="&apos;device&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="788" column="23" severity="warning" message="&apos;devices&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="880" column="22" severity="warning" message="&apos;device&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="937" column="53" severity="warning" message="&apos;device&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\AbstractEmulatorMojo.java">
+<error line="840" column="16" severity="warning" message="&apos;emulator&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\AbstractInstrumentationMojo.java">
+<error line="420" column="39" severity="warning" message="&apos;parsedInstrumentationArgs&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\AbstractPublisherMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\AndroidNdk.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\AndroidSdk.java">
+<error line="112" column="59" severity="warning" message="&apos;sdkPath&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\AndroidSigner.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\AndroidTestRunListener.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\asm\AndroidTestFinder.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\asm\AnnotatedFinder.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\asm\DescendantFinder.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\CommandExecutor.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\AaptCommandBuilder.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\AndroidExtension.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\AndroidPublisherHelper.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\ArtifactResolverHelper.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\Const.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\DependencyCollector.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\DependencyResolver.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\DeviceHelper.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\FileNameHelper.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\FileRetriever.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\JarHelper.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\LogSyncProgressMonitor.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\MavenToPlexusLogAdapter.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\NativeHelper.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\PomConfigurationHelper.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\UnpackedLibHelper.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\XmlHelper.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\common\ZipExtractor.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\compiler\JackCompiler.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\config\ConfigHandler.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\config\ConfigPojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\config\PullParameter.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Apk.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\BuildConfigConstant.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\ConfigHelper.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\DeployApk.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Dex.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Emma.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Emulator.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\HeaderFilesDirective.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Jack.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Lint.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Manifest.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\ManifestMerger.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\MetaInf.java">
+<error line="67" column="39" severity="warning" message="&apos;excludes&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="104" column="39" severity="warning" message="&apos;includes&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Monkey.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\MonkeyRunner.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Ndk.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Program.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Proguard.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Pull.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Push.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\RegexVersionElementParser.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Run.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Sdk.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Sign.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\SimpleVersionElementParser.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Test.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\UIAutomator.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Unpack.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\UsesSdk.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\ValidationResponse.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\VersionElementParser.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\VersionGenerator.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\configuration\Zipalign.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\DefaultJavaProcessExecutor.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\DeviceCallback.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\ExecutionException.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\IncludeExcludeSet.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\InclusionExclusionResolver.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\InstrumentationArgumentParser.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\InvalidConfigurationException.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\InvalidNdkException.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\InvalidSdkException.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\MavenErrorReporter.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase01generatesources\ConflictingLayout.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase01generatesources\ConflictingLayoutDetector.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase01generatesources\GenerateSourcesMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase01generatesources\MavenILogger.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase01generatesources\ResourceClassGenerator.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase04processclasses\EmmaMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase04processclasses\ProguardMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase08preparepackage\DexMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase09package\AarMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase09package\ApklibMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase09package\ApkMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase11preintegrationtest\InternalPreIntegrationTestMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase12integrationtest\InternalIntegrationTestMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase_prebuild\ClasspathModifierLifecycleParticipant.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\phase_prebuild\ProvidedDependencyChecker.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\PluginInfo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\ProcessResultImplCopy.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\ProgressIndicatorImpl.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\resource\XpathAppendingTransformer.java">
+<error line="55" column="41" severity="warning" message="&apos;resource&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\ScreenshotServiceWrapper.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\CompatibleScreen.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\ConnectMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\DeployApkMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\DeployDependenciesMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\DeployMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\DevicesMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\DisconnectMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\EmulatorStartMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\EmulatorStopAllMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\EmulatorStopMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\InstrumentMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\LintMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\ManifestMergerMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\ManifestUpdateMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\MonkeyMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\MonkeyRunnerMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\PublishApkMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\PublishListingMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\PullMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\PushMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\RedeployApkMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\RedeployMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\RunMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\SupportsScreens.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\UIAutomatorMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\UndeployApkMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\UndeployMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\UnpackMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\java\com\simpligility\maven\plugins\android\standalonemojos\ZipalignMojo.java">
+</file>
+<file name="C:\Users\Android\Desktop\JSON\src\main\filtered-resources\com\simpligility\maven\plugins\android\plugin.properties">
+</file>
+</checkstyle>

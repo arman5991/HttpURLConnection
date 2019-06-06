@@ -1,0 +1,186 @@
+Maven Executor implementation: io.takari.maven.testing.executor.Embedded3xLauncher
+Maven home: C:\Users\Android\Desktop\JSON\target\maven-installation\apache-maven-3.0.5
+Build work directory: C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0
+Execution parameters: [-Dm2e.workspace.state=C:\Users\Android\Desktop\JSON\target\workspacestate.properties, -X, -Dmaven.repo.local=C:\Users\Android\.m2\repository, -Dit-plugin.version=4.5.0-jarfix, -Dit-project.version=4.5.0-jarfix, com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint]
+
+Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 17:51:28+0400)
+Maven home: C:\Users\Android\Desktop\JSON\target\maven-installation\apache-maven-3.0.5
+Java version: 1.8.0_74, vendor: Oracle Corporation
+Java home: C:\Program Files\Java\jdk1.8.0_74\jre
+Default locale: ru_RU, platform encoding: Cp1252
+OS name: "windows 8.1", version: "6.3", arch: "amd64", family: "dos"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from C:\Users\Android\Desktop\JSON\target\maven-installation\apache-maven-3.0.5\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\Android\.m2\settings.xml
+[DEBUG] Using local repository at C:\Users\Android\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10 for C:\Users\Android\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.jayway.maven.plugins.android.tests:lint-config-project1:jar:15.4.3.1011: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.jayway.maven.plugins.android.tests:lint-config-project1:jar:15.4.3.1011
+[DEBUG] Tasks:   [com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint]
+[DEBUG] Style:   Aggregating
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lint-config-project1 15.4.3.1011
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.jayway.maven.plugins.android.tests:lint-config-project1:15.4.3.1011
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] Repositories (plugins)     : [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <aaptExtraArgs>${android.aaptExtraArgs}</aaptExtraArgs>
+  <aaptVerbose>${android.aaptVerbose}</aaptVerbose>
+  <adbConnectionTimeout default-value="5000">${android.adb.connectionTimeout}</adbConnectionTimeout>
+  <androidManifestFile default-value="${project.basedir}/src/main/AndroidManifest.xml">${android.manifestFile}</androidManifestFile>
+  <assetsDirectory default-value="${project.basedir}/src/main/assets"/>
+  <attachJar default-value="true">${android.attachJar}</attachJar>
+  <attachSources default-value="false">${android.attachSources}</attachSources>
+  <combinedAssets default-value="${project.build.directory}/generated-sources/combined-assets"/>
+  <configurations>${android.configurations}</configurations>
+  <customPackage>${android.customPackage}</customPackage>
+  <destinationManifestFile default-value="${project.build.directory}/AndroidManifest.xml">${destination.manifestFile}</destinationManifestFile>
+  <device>${android.device}</device>
+  <deviceThreads>${android.deviceThreads}</deviceThreads>
+  <devices>${android.devices}</devices>
+  <disableConflictingDependenciesWarning default-value="false"/>
+  <envAndroidHome default-value="${env.ANDROID_HOME}"/>
+  <extractedDependenciesDirectory default-value="${project.build.directory}/generated-sources/extracted-dependencies"/>
+  <extractedDependenciesJavaResources default-value="${project.build.directory}/generated-sources/extracted-dependencies/src/main/resources"/>
+  <extractedDependenciesJavaSources default-value="${project.build.directory}/generated-sources/extracted-dependencies/src/main/java"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <genDirectory default-value="${project.build.directory}/generated-sources/r">${android.genDirectory}</genDirectory>
+  <generateApk default-value="true">${android.generateApk}</generateApk>
+  <includeLibsJarsFromAar default-value="true"/>
+  <includeLibsJarsFromApklib default-value="false"/>
+  <ips>${android.ips}</ips>
+  <legacy>${android.lint.legacy}</legacy>
+  <lintClasspath>${android.lint.classpath}</lintClasspath>
+  <lintConfig>${android.lint.config}</lintConfig>
+  <lintDisableSourceLines>${android.lint.disableSourceLines}</lintDisableSourceLines>
+  <lintEnableClasspath>${android.lint.enableSources}</lintEnableClasspath>
+  <lintEnableHtml>${android.lint.enableHtml}</lintEnableHtml>
+  <lintEnableLibraries>${android.lint.enableSources}</lintEnableLibraries>
+  <lintEnableSimpleHtml>${android.lint.enableSimpleHtml}</lintEnableSimpleHtml>
+  <lintEnableSource>${android.lint.enableSources}</lintEnableSource>
+  <lintEnableXml>${android.lint.enableXml}</lintEnableXml>
+  <lintFailOnError>${android.lint.failOnError}</lintFailOnError>
+  <lintFullPath>${android.lint.fullPath}</lintFullPath>
+  <lintHtmlOutputPath>${android.lint.htmlOutputPath}</lintHtmlOutputPath>
+  <lintIgnoreWarnings>${android.lint.ignoreWarning}</lintIgnoreWarnings>
+  <lintLibraries>${android.lint.libraries}</lintLibraries>
+  <lintShowAll>${android.lint.showAll}</lintShowAll>
+  <lintSimpleHtmlOutputPath>${android.lint.simpleHtmlOutputPath}</lintSimpleHtmlOutputPath>
+  <lintSkip>${android.lint.skip}</lintSkip>
+  <lintSources>${android.lint.sources}</lintSources>
+  <lintUrl>${android.lint.url}</lintUrl>
+  <lintWarnAll>${android.lint.warnAll}</lintWarnAll>
+  <lintWarningsAsErrors>${android.lint.warningsAsErrors}</lintWarningsAsErrors>
+  <lintXmlOutputPath>${android.lint.xmlOutputPath}</lintXmlOutputPath>
+  <nativeLibrariesDirectory default-value="${project.basedir}/src/main/libs">${android.nativeLibrariesDirectory}</nativeLibrariesDirectory>
+  <ndkOutputDirectory default-value="${project.build.directory}/ndk-libs"/>
+  <ndkPath>${android.ndk.path}</ndkPath>
+  <proguardFile>${android.proguardFile}</proguardFile>
+  <projectOutputDirectory default-value="${project.build.outputDirectory}"/>
+  <quiet>${android.lint.quiet}</quiet>
+  <release default-value="false">${android.release}</release>
+  <renameManifestPackage>${android.renameManifestPackage}</renameManifestPackage>
+  <resourceDirectory default-value="${project.basedir}/src/main/res"/>
+  <resourceOverlayDirectory default-value="${project.basedir}/res-overlay"/>
+  <resources default-value="${project.build.resources}"/>
+  <sdk>
+    <platform>19</platform>
+  </sdk>
+  <sdkPath>${android.sdk.path}</sdkPath>
+  <sdkPlatform>${android.sdk.platform}</sdkPlatform>
+  <sourceDirectory default-value="${project.build.sourceDirectory}"/>
+  <sourceEncoding default-value="${project.build.sourceEncoding}"/>
+  <targetDirectory default-value="${project.build.directory}"/>
+  <undeployBeforeDeploy default-value="false">${android.undeployBeforeDeploy}</undeployBeforeDeploy>
+  <unpackedLibsFolder default-value="${project.build.directory}/unpacked-libs">${unpackedLibsFolder}</unpackedLibsFolder>
+  <execution default-value="${mojoExecution}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --- android-maven-plugin:4.5.0-jarfix:lint (default-cli) @ lint-config-project1 ---
+[DEBUG] Configuring mojo com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint from plugin realm ClassRealm[plugin>com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix, parent: sun.misc.Launcher$AppClassLoader@6bc7c054]
+[DEBUG] Configuring mojo 'com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint' with basic configurator -->
+[DEBUG]   (f) aaptExtraArgs = []
+[DEBUG]   (f) adbConnectionTimeout = 5000
+[DEBUG]   (f) androidManifestFile = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\src\main\AndroidManifest.xml
+[DEBUG]   (f) assetsDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\src\main\assets
+[DEBUG]   (f) attachJar = true
+[DEBUG]   (f) attachSources = false
+[DEBUG]   (f) combinedAssets = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\generated-sources\combined-assets
+[DEBUG]   (f) destinationManifestFile = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\AndroidManifest.xml
+[DEBUG]   (f) devices = []
+[DEBUG]   (f) disableConflictingDependenciesWarning = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\false
+[DEBUG]   (f) extractedDependenciesDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\generated-sources\extracted-dependencies
+[DEBUG]   (f) extractedDependenciesJavaResources = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\generated-sources\extracted-dependencies\src\main\resources
+[DEBUG]   (f) extractedDependenciesJavaSources = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\generated-sources\extracted-dependencies\src\main\java
+[DEBUG]   (f) finalName = lint-config-project1-15.4.3.1011
+[DEBUG]   (f) genDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\generated-sources\r
+[DEBUG]   (f) generateApk = true
+[DEBUG]   (f) includeLibsJarsFromAar = true
+[DEBUG]   (f) includeLibsJarsFromApklib = false
+[DEBUG]   (f) ips = []
+[DEBUG]   (f) nativeLibrariesDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\src\main\libs
+[DEBUG]   (f) ndkOutputDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\ndk-libs
+[DEBUG]   (f) projectOutputDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\classes
+[DEBUG]   (f) release = false
+[DEBUG]   (f) resourceDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\src\main\res
+[DEBUG]   (f) resourceOverlayDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\res-overlay
+[DEBUG]   (f) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) platform = 19
+[DEBUG]   (f) sdk = com.simpligility.maven.plugins.android.configuration.Sdk@59b1edab
+[DEBUG]   (f) sourceDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\src\main\java
+[DEBUG]   (f) targetDirectory = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target
+[DEBUG]   (f) undeployBeforeDeploy = false
+[DEBUG]   (f) unpackedLibsFolder = C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\unpacked-libs
+[DEBUG]   (f) execution = com.simpligility.maven.plugins:android-maven-plugin:4.5.0-jarfix:lint {execution: default-cli}
+[DEBUG]   (f) project = MavenProject: com.jayway.maven.plugins.android.tests:lint-config-project1:15.4.3.1011 @ C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3855b27e
+[DEBUG] -- end configuration --
+[DEBUG] get parsed xml output path:null
+[DEBUG] Parsed values for Android Lint invocation: 
+[DEBUG] failOnError:false
+[DEBUG] skip:true
+[DEBUG] legacy:true
+[DEBUG] quiet:true
+[DEBUG] ignoreWarnings:false
+[DEBUG] warnAll:false
+[DEBUG] warningsAsErrors:false
+[DEBUG] config2:null
+[DEBUG] fullPath:false
+[DEBUG] showAll:true
+[DEBUG] disableSourceLines:false
+[DEBUG] enablehtml: false
+[DEBUG] htmlOutputPath:C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\lint-results\lint-results-html
+[DEBUG] enableSimpleHtml: false
+[DEBUG] simpleHtmlOutputPath:C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\lint-results\lint-results-simple-html
+[DEBUG] enableXml: true
+[DEBUG] xmlOutputPath:C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\lint-results\lint-results.xml
+[DEBUG] sources:C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\src\main\java
+[DEBUG] classpath:C:\Users\Android\Desktop\JSON\target\test-projects\LintMojoIntegrationTest_testSkipConfig[3.0.5]_lint-config-project0\target\classes
+[DEBUG] libraries:null
+[INFO] Skipping lint analysis.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.023s
+[INFO] Finished at: Tue Dec 12 13:54:19 MSK 2017
+[INFO] Final Memory: 26M/211M
+[INFO] ------------------------------------------------------------------------
